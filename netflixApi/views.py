@@ -8,7 +8,7 @@ from googleapiclient.discovery import build
 def home1(request,category):
     # url = env("TRENDING")
     # print (url)
-    # url = 'https://api.themoviedb.org/3/movie/popular?api_key=4cb8d19a47413735066d0a13e6ced170&language=en-US&page=1'
+    url = 'https://api.themoviedb.org/3/movie/popular?api_key=04319e158b74fc6aa9055b417b68d78c&language=en-US&page=1'
     key =  config('API_KEY')  
     url =  config('url') 
     url2 = url.format(category,key)
