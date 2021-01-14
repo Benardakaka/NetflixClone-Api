@@ -1,11 +1,11 @@
-# Movie-App.
+# NetflixClone.
 
 #### Author: [Benard Akaka](https://github.com/Benardakaka)
 
 ## Description
 
 
-This is a python/flask application that manage the user to search His/Her movies.
+This is a python/flask/django application that manage the user to search His/Her movies.
 
 
 ## User Stories
@@ -18,7 +18,7 @@ The user would like to.. :
 
 
 
- # ```https://github.com/Benardakaka/Watchlist```
+ # ```https://github.com/Benardakaka/NetflixClone-Api```
 
 2. Clone the project.
 
@@ -31,6 +31,7 @@ The user would like to.. :
 * [Python3.6]
 * [Flask]
 * [Bootstrap]
+* [Django]
 
 ## Built With
 
