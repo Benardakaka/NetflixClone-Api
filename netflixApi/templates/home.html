@@ -1,12 +1,12 @@
 {%extends 'base.html'%}
 {%block content%}
 <div class="container-fluid elegant-color-dark">
-    <div class="jumbotron jumbotron-fluid elegant-color-dark">
+    
         <div class="container">
-            <h2 class="display-4 text-white">Netflix Clone</h2>
+            <marquee behavior="scroll" direction="right"><h1 style="color: brown;"><b><i>HELLO,WELCOME TO NetflixClone</i></b></h1></marquee>
             <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         </div>
-    </div>
+        
     <h3 class="text-white">Popular on netflix</h3>
     <div class="row">
         {%for data in popular.results%}

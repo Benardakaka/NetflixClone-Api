@@ -6,8 +6,6 @@ from googleapiclient.discovery import build
 
 # Create your views here.
 def home1(request,category):
-    # url = env("TRENDING")
-    # print (url)
     url = 'https://api.themoviedb.org/3/movie/popular?api_key=04319e158b74fc6aa9055b417b68d78c&language=en-US&page=1'
     key =  config('API_KEY')  
     url =  config('url') 

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-skyblue elegant-color-skyblue">
+<nav class="navbar navbar-expand-lg navbar-dark elegant-color-dark">
   <a class="navbar-brand" href="#">NetflixClone</a>
   <button
     class="navbar-toggler"
@@ -30,18 +30,19 @@
     </ul>
   </div>
 
-  <div class="form" style="float: right;">
-    <form class="form-inline my-1" role="search">
-      <div class="md-form form-sm my-0">
-        <input
-          class="form-control form-control-sm mr-sm-2 mb-0"
-          type="text"
-          placeholder="Search here..."
-          name="category"
-          aria-label="Search"
-        />
+  <div class="jumbotron">
+    <div class="container">
+     
+      <form method="POST">
+      <div class="input-group mb-3">
+          {% csrf_token %}
+         <br> <input type="text" name="search" placeholder="search here .." class="form-control" aria-label="Username">
       </div>
-      <button class="btn btn-secondary" type="submit">Search</button>
-    </form>
+      <p>
+        <button type="submit" name="submit" value="search" class="btn btn-primary my-2">Netflix Search</button>
+        <button type="submit" name="submit" value="lucky" class="btn btn-secondary my-2">Trending</button>
+      </p>
+      </form>
+    </div>
   </div>
 </nav>
